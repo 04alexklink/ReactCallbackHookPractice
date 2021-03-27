@@ -1,5 +1,6 @@
-
+import React from 'react'
 const Button = ({handleClick, text}) => {
+    console.log(`rendering ${text} button component`)
     return (
         <div>
         <button onClick={() => handleClick()}>{text}</button>
@@ -7,4 +8,4 @@ const Button = ({handleClick, text}) => {
     )
 }
 
-export default Button
+export default React.memo(Button)
