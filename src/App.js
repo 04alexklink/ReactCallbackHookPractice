@@ -1,8 +1,10 @@
-import ParentComponent from './components/ParentComponent'
+// import ParentComponent from './components/ParentComponent'
+import FocusInput from './components/useRefHookPractice/FocusInput'
 function App() {
   return (
     <div className="App">
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+      <FocusInput></FocusInput>
     </div>
   );
 }
